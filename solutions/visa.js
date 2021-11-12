@@ -1,7 +1,7 @@
 const checkVisa = creditCardNumber => {
     const cardRegExp = /^4\d{15}/;
     return creditCardNumber.match(cardRegExp) ? true : false;
-}
+};
 
 
 export default checkVisa;
@@ -14,4 +14,3 @@ export default checkVisa;
 5. return w/
 6. validate ccnumber
 7. true or false - ternary*/
-

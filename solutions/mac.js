@@ -1,6 +1,6 @@
 const checkMac = (anyMac) => {
-const macRegExp = /^([0-9a-f]{2}[:-]){5}[0-9a-f]{2}$/i;
-return anyMac.match(macRegExp) ? true : false;
+    const macRegExp = /^([0-9a-f]{2}[:-]){5}[0-9a-f]{2}$/i;
+    return anyMac.match(macRegExp) ? true : false;
 };
 export default checkMac;
 
